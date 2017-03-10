@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">NoFear</string>
+
+    <string name="nofear">No Fear with V-Real! \n Get Rid of Your Phobias!</string>
+
+    <string name="vrroom">A VR Room where you can finally face your Inner Fears!</string>
+
+    <string name="address">4565 Pusztadobos Rákóczi street 49</string>
+
+    <string name="openinghours">Mon-Fri: 10am - 12pm, Sat: 2pm-12pm</string>
+
+    <string name="website">www.v-real.hu</string>
+
+</resources>

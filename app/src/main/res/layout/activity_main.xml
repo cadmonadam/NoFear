@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.android.nofear.MainActivity">
+
+
+        <ImageView
+            android:id="@+id/android_cat_view"
+            style="@style/Picture"
+            android:src="@drawable/nofear3" />
+
+        <TextView
+            android:id="@+id/android_vreal_texview"
+            style="@style/Main1"
+            android:text="@string/nofear" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                style="@style/Button"
+                android:onClick="dialPhoneNumber"
+                app:srcCompat="@drawable/phone_48px_2" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                style="@style/Button"
+                android:onClick="SendEmail"
+                app:srcCompat="@drawable/gmail_48px" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                style="@style/Button"
+                android:onClick="OpenG"
+                app:srcCompat="@drawable/googleplus_48px" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/android_room_texview"
+            style="@style/Main2"
+            android:text="@string/vrroom" />
+
+        <TextView
+            android:id="@+id/android_address_texview"
+            style="@style/Details"
+            android:drawableLeft="@drawable/ic_location_on_black_24dp"
+            android:onClick="showMap"
+            android:text="@string/address" />
+
+        <TextView
+            android:id="@+id/android_openinghours_texview"
+            style="@style/Details"
+            android:drawableLeft="@drawable/ic_access_time_black_24dp"
+            android:text="@string/openinghours" />
+
+        <TextView
+            android:id="@+id/android_miss_texview"
+            style="@style/Details"
+            android:autoLink="all"
+            android:drawableLeft="@drawable/ic_http_black_24dp"
+            android:linksClickable="true"
+            android:text="@string/website"
+            android:textColorLink="@android:color/black" />
+
+    </LinearLayout>
+
+</ScrollView>
