@@ -27,19 +27,16 @@
             <ImageButton
                 android:id="@+id/imageButton1"
                 style="@style/Button"
-                android:onClick="dialPhoneNumber"
                 app:srcCompat="@drawable/phone_48px_2" />
 
             <ImageButton
                 android:id="@+id/imageButton2"
                 style="@style/Button"
-                android:onClick="SendEmail"
                 app:srcCompat="@drawable/gmail_48px" />
 
             <ImageButton
                 android:id="@+id/imageButton3"
                 style="@style/Button"
-                android:onClick="OpenG"
                 app:srcCompat="@drawable/googleplus_48px" />
 
 
@@ -54,7 +51,6 @@
             android:id="@+id/android_address_texview"
             style="@style/Details"
             android:drawableLeft="@drawable/ic_location_on_black_24dp"
-            android:onClick="showMap"
             android:text="@string/address" />
 
         <TextView
